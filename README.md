@@ -1,4 +1,3 @@
-
 # MyBot Application
 
 ## Overview
@@ -16,6 +15,9 @@ MyBot is a versatile Discord bot designed to enhance server management and engag
    ```
 2. **Install Dependencies:**
    Depending on your setup, you might need to install specific Python libraries or Discord API dependencies. Ensure you have Python and necessary libraries installed to run the bot.
+   ```bash
+   pip install discord.py==1.7.3 aiohttp==3.7.4 PyYAML==5.4.1
+   ```
 3. **Configure Bot Token and Permissions:**
    Edit the `config.yml` file to include your Discord bot token and necessary permissions.
 4. **Run the Bot:**

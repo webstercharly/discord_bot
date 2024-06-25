@@ -70,7 +70,7 @@ class StockCog(commands.Cog):
                           embed.add_field(name="Stock", value=str(product['stock']), inline=True)
                           embed.add_field(name="Price", value=price_field_value, inline=True)
                           embed.add_field(name="Product URL", value=f"[View Product]({product_url})", inline=True)
-                          embed.set_footer(text="Need help? Contact Support or Mini")
+                          embed.set_footer(text="Need help? Contact Support")
                           await ctx.send(embed=embed, delete_after=30)
                     else:
                         await ctx.send("Failed to retrieve product stock information.", delete_after=30)
