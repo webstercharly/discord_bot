@@ -1,0 +1,6 @@
+cog_enabled: true
+stock_channel_id: 1198888205022396476 # This is a fake channel ID, replace it with your own (channel where stock command works)
+sellix_api_key: "INSERT_SELLIX_API_KEY" # This is a fake key, replace it with your own
+sellix_product_url: "https://XXXXXXXX.mysellix.io/product/"
+embed:
+  image_thumbnail_url: "https://cdn.discordapp.com/app-icons/XXXXX/XXXXXX.png" # This is a fake Image URL, replace it with your discord logo
